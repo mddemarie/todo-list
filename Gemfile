@@ -9,6 +9,7 @@ gem 'puma', '~> 3.11'
 gem 'bootsnap', '>= 1.1.0', require: false
 
 group :development, :test do
+  gem 'byebug', '~> 11.0', '>= 11.0.1'
   gem 'rspec-rails', '~> 3.8', '>= 3.8.2'
   gem 'shoulda-matchers', '~> 4.1'
   gem 'rubocop-rails', '~> 2.0', '>= 2.0.1'
